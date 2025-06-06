@@ -9,9 +9,8 @@ A simple web application built using Laravel 11, React, and Tailwind CSS.
 ### Requirements
 
 - PHP 8.2+
-- Composer
-- Node.js and npm
-- Laravel 11
+- Composer 2.x+
+- Node.js
 - MySQL or compatible database
 - XAMPP or compatible server  
 
