@@ -17,7 +17,7 @@
     <div
         id="ticket-app"
         data-tickets='@json($tickets)'
-        data-flash="{{ session('success') }}"
+        data-success="{{ session('success') }}"
         data-error="{{ session('error') }}"
         data-status="{{ $status ?? '' }}"
         data-search="{{ $search ?? '' }}"

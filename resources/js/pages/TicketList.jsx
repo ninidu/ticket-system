@@ -7,7 +7,7 @@ const TicketList = ({ tickets }) => {
   const currentStatus = root?.dataset.status || '';
   const currentSearch = root?.dataset.search || '';
   const currentSort = root?.dataset.sort || 'desc';
-  const flashMessage = root?.dataset.flash || null;
+  const flashMessage = root?.dataset.success || null;
   const errorMessage = root?.dataset.error || null;
 
   const [flash, setFlash] = useState(flashMessage);
