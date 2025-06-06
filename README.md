@@ -113,35 +113,6 @@ DOM elements with id="ticket-app" or id="create-ticket-app" are rendered into by
     ReactDOM.createRoot(listApp).render(<TicketList tickets={tickets} />);
     }
 
-## Project Structure Overview    
-
-project-root/
-│
-├── app/
-│   └── Http/Controllers/           # Laravel controllers
-│
-├── resources/
-│   ├── js/
-│   │   ├── index.jsx               # Main React mount file
-│   │   └── pages/                  # React components
-│   │       ├── TicketList.jsx
-│   │       ├── CreateTicketForm.jsx
-│   │       └── EditTicketForm.jsx
-│   │
-│   ├── views/
-│   │   ├── tickets/
-│   │   │   ├── index.blade.php
-│   │   │   ├── create.blade.php
-│   │   │   └── edit.blade.php
-│   │   └── layouts/app.blade.php
-│   │
-│   └── css/app.css                 # Tailwind entry
-│
-├── vite.config.js
-├── package.json
-├── composer.json
-└── .env
-
 ## Benefits of This Approach
 
 - Clean separation of server (Blade) and frontend (React)
