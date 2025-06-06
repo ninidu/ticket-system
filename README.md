@@ -139,18 +139,18 @@ DOM elements with id="ticket-app" or id="create-ticket-app" are rendered into by
 
 ## Challenges & Solutions
 
-1) Challenge - How to Integrate React with Blade
-   Solution  - Refer Integrate method on laravel documentation , refer some youtube videos and web blogs , get help of ai tools and then select one method to Integrate.
+Challenge - How to Integrate React with Blade
+Solution  - Refer Integrate method on laravel documentation , refer some youtube videos and web blogs , get help of ai tools and then select one method to Integrate.
 
-2) Challenge - Tailwind styles not applying in React
-   Solution  - Import important component to app.css
+Challenge - Tailwind styles not applying in React
+Solution  - Import important component to app.css
 
-3) Challenge - Laravel validation errors in React	
-   Solution  - Passed $errors->all() via data-errors in Blade
+Challenge - Laravel validation errors in React	
+Solution  - Passed $errors->all() via data-errors in Blade
 
-4) Challenge -  Flash messages can`t show in system
-   Solution  -  Passed success and error  via data-success="{{ session('success') }}" 
-            data-error="{{ session('error') }}" in Blade 
+Challenge -  Flash messages can`t show in system
+Solution  -  Passed success and error  via data-success="{{ session('success') }}" 
+        data-error="{{ session('error') }}" in Blade 
 
 
 
