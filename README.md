@@ -59,12 +59,12 @@ npm install
 # Run this on terminal
 npm run dev
 ```
-This starts Vite's development server with hot module replacement (HMR).
+- This starts Vite's development server with hot module replacement (HMR).
 
-Use your app URL to access the ticket system:
+- Use your app URL to access the ticket system:
 👉 http://localhost/dashboard/ticket-system/public/tickets
 
-In development mode, any changes you make to your React or CSS files will be automatically applied without needing a page refresh.
+- In development mode, any changes you make to your React or CSS files will be automatically applied without needing a page refresh.
 
 3. **Run In Production Mode**
 
@@ -73,12 +73,12 @@ In development mode, any changes you make to your React or CSS files will be aut
 npm run build
 
 ```
-This compiles and optimizes your assets (JS/CSS) into the public/build directory.
+- This compiles and optimizes your assets (JS/CSS) into the public/build directory.
 
-Use your app URL to access the ticket system:
+- Use your app URL to access the ticket system:
 👉 http://localhost/dashboard/ticket-system/public/tickets
 
-In production mode, changes to your frontend will not be visible until you rebuild the assets with npm run build.
+- In production mode, changes to your frontend will not be visible until you rebuild the assets with npm run build.
 
 # React Integration with Blade
 This project uses React inside Laravel Blade views, without Inertia or Livewire. The integration is done via Vite, Blade templates, and React components mounted to DOM elements with ids.
