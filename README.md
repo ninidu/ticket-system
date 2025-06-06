@@ -15,9 +15,7 @@ A simple web application built using Laravel 11, React, and Tailwind CSS.
 - MySQL or compatible database
 - XAMPP (for local server setup)
 
-# before below step you need to install above requirements 
-
-### Installation Steps
+## Installation Steps
 
 1. **Clone the repository**
 
