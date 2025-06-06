@@ -13,7 +13,7 @@ A simple web application built using Laravel 11, React, and Tailwind CSS.
 - Node.js and npm
 - Laravel 11
 - MySQL or compatible database
-- XAMPP (for local server setup)
+- XAMPP or compatible server  
 
 ## Installation Steps
 
@@ -64,6 +64,8 @@ npm run dev
 - Use your app URL to access the ticket system:
 👉 Ex - http://localhost/dashboard/ticket-system/public/tickets
 
+- If you don`t use any server like XAMPP you can run "php artisan serve" command it will run Laravel’s built-in development server and it show address like 'http://127.0.0.1:8000' and need to add "/tickets" to end , you can use it to access the ticket system .
+
 - In development mode, any changes you make to your React or CSS files will be automatically applied without needing a page refresh.
 
 3. **Run In Production Mode**
@@ -77,6 +79,8 @@ npm run build
 
 - Use your app URL to access the ticket system:
 👉 EX - http://localhost/dashboard/ticket-system/public/tickets
+
+- If you don`t use any server like XAMPP you can run "php artisan serve" command it will run Laravel’s built-in development server and it show address like 'http://127.0.0.1:8000' and need to add "/tickets" to end , you can use it to access the ticket system .
 
 - In production mode, changes to your frontend will not be visible until you rebuild the assets with npm run build.
 
