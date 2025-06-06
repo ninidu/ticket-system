@@ -27,7 +27,7 @@ git clone https://github.com/ninidu/ticket-system.git
 cd ticket-system
 ```
 
-2. **Setup Application**
+2. **Install required dependencies & database migration**
 ```bash
 # install composer
 composer install
@@ -63,10 +63,9 @@ npm install
 # Run this on terminal
 npm run dev
 ```
-After run 'npm run dev' you can access ticket system with your App url.
-Ex - http://localhost/dashboard/ticket-system/public/tickets
-
-* when we work Development Mode application will auto-refreshes when you change code.
+- After run 'npm run dev' you can access ticket system with your App url.
+- Ex - http://localhost/dashboard/ticket-system/public/tickets
+- when we work Development Mode application will auto-refreshes when you change code.
 
 ### Run In Production Mode
 
@@ -75,10 +74,10 @@ Ex - http://localhost/dashboard/ticket-system/public/tickets
 npm run build
 
 ```
-Aftter complete 'npm run build' you can access ticket system with your App url.
-Ex - http://localhost/dashboard/ticket-system/public/tickets
+- Aftter complete 'npm run build' you can access ticket system with your App url.
+- Ex - http://localhost/dashboard/ticket-system/public/tickets
 
-* when we work Production Mode application not apply changes directly , when you change code we need to re run 'npm run build' for channges.
+- when we work Production Mode application not apply changes directly , when you change code we need to re run 'npm run build' for channges.
 
 # React Integration with Blade
 This project uses React inside Laravel Blade views, without Inertia or Livewire. The integration is done via Vite, Blade templates, and React components mounted to DOM elements with ids.
