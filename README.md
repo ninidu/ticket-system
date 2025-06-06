@@ -62,7 +62,7 @@ npm run dev
 - This starts Vite's development server with hot module replacement (HMR).
 
 - Use your app URL to access the ticket system:
-👉 http://localhost/dashboard/ticket-system/public/tickets
+👉 Ex - http://localhost/dashboard/ticket-system/public/tickets
 
 - In development mode, any changes you make to your React or CSS files will be automatically applied without needing a page refresh.
 
@@ -76,7 +76,7 @@ npm run build
 - This compiles and optimizes your assets (JS/CSS) into the public/build directory.
 
 - Use your app URL to access the ticket system:
-👉 http://localhost/dashboard/ticket-system/public/tickets
+👉 EX - http://localhost/dashboard/ticket-system/public/tickets
 
 - In production mode, changes to your frontend will not be visible until you rebuild the assets with npm run build.
 
