@@ -33,7 +33,7 @@ cd ticket-system
 composer install
 cp .env.example .env
 
-#Update database configurations on .env ( ticket_system is databse name you can use any name for it )
+#Update database configurations on .env ( ticket_system is database name , you can use any name for it )
 DB_CONNECTION=mysql
 DB_DATABASE=ticket_system
 DB_USERNAME=root
