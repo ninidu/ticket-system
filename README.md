@@ -1,4 +1,4 @@
-# Customer support ticket management System
+# Customer Support Ticket Management System
 
 A simple web application built using Laravel 11, React, and Tailwind CSS.
 
