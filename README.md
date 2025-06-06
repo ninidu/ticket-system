@@ -29,16 +29,18 @@ cd ticket-system
 
 2. **Setup Application**
 ```bash
+# install composer
 composer install
 cp .env.example .env
 
-#Update .env configurations
+#Update database configurations on .env ( ticket_system is databse name you can use any name for it )
+DB_CONNECTION=mysql
 DB_DATABASE=ticket_system
 DB_USERNAME=root
 DB_PASSWORD=
 
-#update app path to
-APP_URL=http://localhost/dashboard/ticket-system/public
+#update app path on .env
+APP_URL=http://localhost/dashboard/ticket-system/public/tickets
 # 'ticket-system' is name of my project folder , you need to change it according to your folder
 
 #Generate app key
@@ -54,27 +56,29 @@ npm install
 ```
 2. **Run Application**
 
+### Run In Development Mode
+
 ```bash
-# you can run ticket system with Local server or directly on your server
 
-
-# If Run local server
+# Run this on terminal
 npm run dev
-php artisan serve
+```
+After run 'npm run dev' you can access ticket system with your App url.
+Ex - http://localhost/dashboard/ticket-system/public/tickets
 
-# then click in URL like "http://127.0.0.1:8000" it redirect you to 404 browser page then u need to add "/tickets" end of that url like "http://127.0.0.1:8000/tickets" it redirect you to main page of Customer support ticket system and now you can acess all features of system.
+* when we work Development Mode application will auto-refreshes when you change code.
 
+### Run In Production Mode
 
-
-# If Run directly on your server
+```bash
+# Run this on terminal
 npm run build
 
-# after complete npm run build command you can access Customer support ticket system with your APP_URL but you need to add "/tickets" end of url , my url like below
-
-http://localhost/dashboard/ticket-system/public/tickets
-
-
 ```
+Aftter complete 'npm run build' you can access ticket system with your App url.
+Ex - http://localhost/dashboard/ticket-system/public/tickets
+
+* when we work Production Mode application not apply changes directly , when you change code we need to re run 'npm run build' for channges.
 
 # React Integration with Blade
 This project uses React inside Laravel Blade views, without Inertia or Livewire. The integration is done via Vite, Blade templates, and React components mounted to DOM elements with ids.

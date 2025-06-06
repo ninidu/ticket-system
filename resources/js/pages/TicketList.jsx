@@ -103,8 +103,8 @@ const TicketList = ({ tickets }) => {
         <table className="min-w-full divide-y divide-gray-200 text-sm text-gray-700">
           <thead className="bg-gray-50 text-xs text-gray-500 uppercase tracking-wider">
             <tr>
-              <th className="px-4 py-3 text-left">Customer</th>
-              <th className="px-4 py-3 text-left">Issue</th>
+              <th className="px-4 py-3 text-left">Customer Name</th>
+              <th className="px-4 py-3 text-left">Issue Description</th>
               <th className="px-4 py-3 text-left">Priority</th>
               <th className="px-4 py-3 text-left">Status</th>
               <th className="px-4 py-3 text-left">Last Update</th>
