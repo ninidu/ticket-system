@@ -23,7 +23,7 @@ A simple web application built using Laravel 11, React, and Tailwind CSS.
 
 ```bash
 
-git clone https://github.com/your-username/ticket-system.git
+git clone https://github.com/ninidu/ticket-system.git
 cd ticket-system
 ```
 
