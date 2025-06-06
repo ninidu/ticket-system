@@ -54,7 +54,7 @@ npm install
 ```
 2. **Run Application**
 
-### Run In Development Mode
+    ### Run In Development Mode
 
 ```bash
 
@@ -65,7 +65,7 @@ npm run dev
 - Ex - http://localhost/dashboard/ticket-system/public/tickets
 - when we work Development Mode application will auto-refreshes when you change code.
 
-### Run In Production Mode
+    ### Run In Production Mode
 
 ```bash
 # Run this on terminal
