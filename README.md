@@ -94,20 +94,7 @@ Blade templates like index.blade.php and create.blade.php include @viteReactRefr
 ### React renders into Blade
 DOM elements with id="ticket-app" or id="create-ticket-app" are rendered into by React. Props are passed via data-* attributes.
 
-
-
-## Conceptual Workflow
--Laravel Blade handles routing and server-side rendering.
-
--Each Blade file includes a div (e.g., #ticket-app) with ticket data passed as a data-* prop.
-
--React components are mounted to these elements based on their presence in the DOM.
-
--Tailwind CSS is shared between Blade and React views.
-
-
 ## Example: Blade View Passing Data
-    ```bash
         <div
         id="ticket-app"
         data-tickets='@json($tickets)'
@@ -118,40 +105,37 @@ DOM elements with id="ticket-app" or id="create-ticket-app" are rendered into by
         data-sort="{{ $sort ?? 'desc' }}"
         data-action="{{ url('/') }}"
         ></div>
-    ```
 
 ## Example: React Mount in index.jsx
-    ```bash
     const listApp = document.getElementById('ticket-app');
     if (listApp) {
     const tickets = JSON.parse(listApp.dataset.tickets);
     ReactDOM.createRoot(listApp).render(<TicketList tickets={tickets} />);
     }
-    ```
 
 
 ## Benefits of This Approach
 
--Clean separation of server (Blade) and frontend (React)
+- Clean separation of server (Blade) and frontend (React)
 
--No reliance on Inertia.js or Livewire — more flexible and transparent
+- No reliance on Inertia.js or Livewire — more flexible and transparent
 
--Scalable with Tailwind, React Router (if needed), and APIs
+- Scalable with Tailwind, React Router (if needed), and APIs
 
--Fast dev loop using npm run dev (Vite hot reload)
+- Fast dev loop using npm run dev (Vite hot reload)
 
 
 # Development Approach & Challenges
 
 ## Approach
 
--Followed a modular React component structure and passed data via Blade
+- Followed a modular React component structure and passed data via Blade
 
--Implemented server-side filtering, sorting, and searching
+- Implemented server-side filtering, sorting, and searching
 
--Used Tailwind CSS for styling both Blade and React elements
+- Used Tailwind CSS for styling both Blade and React elements
 
--Maintained simplicity: no Inertia.js or Livewire to keep control clear between React and Blade
+- Maintained simplicity: no Inertia.js or Livewire to keep control clear between React and Blade
 
 ## Challenges & Solutions
 
