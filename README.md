@@ -26,8 +26,10 @@ cd ticket-system
 
 2. **Install required dependencies & database migration**
 ```bash
-# install composer
+#install composer
 composer install
+
+#Create .env file
 cp .env.example .env
 
 #Update database configurations on .env ( ticket_system is database name , you can use any name for it )
