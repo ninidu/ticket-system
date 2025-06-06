@@ -23,8 +23,7 @@ A simple web application built using Laravel 11, React, and Tailwind CSS.
 git clone https://github.com/ninidu/ticket-system.git
 cd ticket-system
 ```
-
-2. **Install required dependencies & database migration**
+2. **Install required dependencies & database migration(Run below commands on terminal)**
 ```bash
 #install composer
 composer install
