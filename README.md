@@ -54,28 +54,28 @@ npm install
 ```
 2. **Run Application**
 
-    ### Run In Development Mode
+### Run In Development Mode
 
-    ```bash
+```bash
 
-    # Run this on terminal
-    npm run dev
-    ```
-    - After run 'npm run dev' you can access ticket system with your App url.
-    - Ex - http://localhost/dashboard/ticket-system/public/tickets
-    - when we work Development Mode application will auto-refreshes when you change code.
+# Run this on terminal
+npm run dev
+```
+- After run 'npm run dev' you can access ticket system with your App url.
+- Ex - http://localhost/dashboard/ticket-system/public/tickets
+- when we work Development Mode application will auto-refreshes when you change code.
 
-    ### Run In Production Mode
+### Run In Production Mode
 
-    ```bash
-    # Run this on terminal
-    npm run build
+```bash
+# Run this on terminal
+npm run build
 
-    ```
-    - Aftter complete 'npm run build' you can access ticket system with your App url.
-    - Ex - http://localhost/dashboard/ticket-system/public/tickets
+```
+- Aftter complete 'npm run build' you can access ticket system with your App url.
+- Ex - http://localhost/dashboard/ticket-system/public/tickets
 
-    - when we work Production Mode application not apply changes directly , when you change code we need to re run 'npm run build' for channges.
+- when we work Production Mode application not apply changes directly , when you change code we need to re run 'npm run build' for channges.
 
 # React Integration with Blade
 This project uses React inside Laravel Blade views, without Inertia or Livewire. The integration is done via Vite, Blade templates, and React components mounted to DOM elements with ids.
