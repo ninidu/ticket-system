@@ -56,22 +56,22 @@ npm install
 
     ### Run In Development Mode
 
-```bash
+    ```bash
 
     # Run this on terminal
     npm run dev
-```
+    ```
     - After run 'npm run dev' you can access ticket system with your App url.
     - Ex - http://localhost/dashboard/ticket-system/public/tickets
     - when we work Development Mode application will auto-refreshes when you change code.
 
     ### Run In Production Mode
 
-```bash
+    ```bash
     # Run this on terminal
     npm run build
 
-```
+    ```
     - Aftter complete 'npm run build' you can access ticket system with your App url.
     - Ex - http://localhost/dashboard/ticket-system/public/tickets
 
