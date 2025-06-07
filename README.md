@@ -10,7 +10,7 @@ A simple web application built using Laravel 11, React, and Tailwind CSS.
 
 - PHP 8.2+
 - Composer 2.x+
-- Node.js
+- Node.js 18.x+
 - MySQL or compatible database
 - XAMPP or compatible server  
 
@@ -39,7 +39,8 @@ DB_PASSWORD=
 
 #update app path on .env
 APP_URL=http://localhost/dashboard/ticket-system/public/tickets
-# 'ticket-system' is name of my project folder , you need to change it according to your folder
+
+# Replace "ticket-system" with your actual project folder name. This URL should reflect your local server path based on how XAMPP (or any web server) serves your Laravel app. 
 
 #Generate app key
 php artisan key:generate
